@@ -1,0 +1,156 @@
+
+/* App.css */
+.app-container {
+  display: flex;
+}
+
+.left-side {
+  background-color:#ffffff;
+  
+  flex: 0.2;
+}
+
+
+.ant-menu {
+  width: 255px;
+  height: 620px; /* Set the height to 300px */
+  
+  background-color: #efd002;
+background-image: linear-gradient(319deg, #efd002 0%, #31b74a 37%, #442ce0 100%);
+
+}
+.ant-menu-item {
+  color: rgb(255, 255, 255);
+}
+
+/* Make the menu background cover the full width */
+.ant-menu-dark .ant-menu-sub,
+.ant-menu-dark .ant-menu-inline,
+.ant-menu-dark .ant-menu-vertical,
+.ant-menu-dark .ant-menu-vertical-left {
+  background-color: #54d9dd;
+}
+
+.content {
+  flex: 0.8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #505ed8;
+  min-height: 30; /* Allow the content to shrink if needed */
+  width: 175%; /* Set the width to 80% of its container */
+  height: 140px; /* Set the height to 300px */
+  margin: 10px; /* Add some margin to all sides */
+  
+}
+
+.content h1 {
+  text-align: center;
+  color: white; /* Text color for h1 element */
+}
+
+.content p {
+  text-align: center;
+  color: white; /* Text color for p element */
+}
+
+/* ... Your existing CSS ... */
+
+.create-blog-button {
+  background-color: #026829cb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 20%; /* Missing semicolon added */
+  width: 40%;
+  margin: 10px; /* Add some margin to all sides */
+}
+
+.create-blog-button:hover {
+  background-color: #0d3c57;
+}
+
+.blog-heading {
+  width: 200; /* Set the width to 100% */
+  text-align: left; /* Center align the heading */
+  margin-top: 50px; /* Add margin on top */
+  font-size: 44px; /* Adjust the font size */
+  color: rgba(12, 1, 10, 0.808); /* Customize the text color */
+  height: 40px; /* Set the height of the heading */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 10px; 
+}
+
+/* ... Your existing CSS ... */
+
+/* App.css */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; 
+  margin-top: 40px; /* Adjust the top margin if needed */
+  margin-left: 10px; /* Reduce the left margin */
+  margin-right: 10px; /* Reduce the right margin */
+  cursor: pointer;     
+}
+
+.blog-card {
+  width: 48%; /* Set the width of each card */
+  padding: 10px;
+  border: 2px solid #dacdcd;
+  border-radius: 9px;
+  box-shadow: 0 4px 4px rgba(161, 147, 147, 0.952);
+  
+}
+
+.left-card {
+  background-color: #ffffff; /* Customize the background color */
+}
+
+.right-card {
+  background-color: #ffffff; /* Customize the background color */
+}
+
+.blog-card h2 {
+  margin-bottom: 30px;
+}
+
+/* ... Your existing CSS ... */
+
+.story-table {
+  width: 180%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-left: 7px; /* Reduce the left margin */
+  margin-right: 10px;
+  
+  
+}
+
+.story-table th, .story-table td {
+  border: 1px solid #fffbfb;
+  padding: 7px;
+  text-align: left; /* Align content to the right */
+}
+
+.story-table th {
+  background-color: #f2f2f2;
+}
+
+.story-table button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.story-table button:hover {
+  background-color: #0056b3;
+}
